@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Godwin-Portfolio/static/css/main.ec8e228b.css",
+    "main.js": "/Godwin-Portfolio/static/js/main.dcd958e1.js",
+    "static/media/badge1.png": "/Godwin-Portfolio/static/media/badge1.1ccd6768a57d8945128b.png",
+    "static/media/fs.jpg": "/Godwin-Portfolio/static/media/fs.25c8402d7914e325593f.jpg",
+    "static/media/tiger.jpg": "/Godwin-Portfolio/static/media/tiger.57d6dd67cbe40c7de109.jpg",
+    "static/media/Chaat.png": "/Godwin-Portfolio/static/media/Chaat.d7cc3cb05b64ab79a3de.png",
+    "static/media/sath.jpg": "/Godwin-Portfolio/static/media/sath.8adcb7863bac7940dfce.jpg",
+    "static/media/Screenshot 2023-10-20 205121.png": "/Godwin-Portfolio/static/media/Screenshot 2023-10-20 205121.734e83d337b969180bad.png",
+    "static/media/webs.jpg": "/Godwin-Portfolio/static/media/webs.ac0d71f9b4be9beb35a8.jpg",
+    "static/media/badge2.png": "/Godwin-Portfolio/static/media/badge2.0d2c6e714c8a9ab9974a.png",
+    "static/media/12a.png": "/Godwin-Portfolio/static/media/12a.8af28c7770a10bdc4539.png",
+    "static/media/delis.jpeg": "/Godwin-Portfolio/static/media/delis.9f26021c846b7d829e4b.jpeg",
+    "static/media/9.png": "/Godwin-Portfolio/static/media/9.684d630d18f27aaecd1d.png",
+    "static/media/contactImg.png": "/Godwin-Portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialOne.png": "/Godwin-Portfolio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/hackwitlogo.png": "/Godwin-Portfolio/static/media/hackwitlogo.ffff981c8d70b007d715.png",
+    "static/media/projectThree.jpeg": "/Godwin-Portfolio/static/media/projectThree.47442baa3158613330ab.jpeg",
+    "static/media/testimonialTwo.png": "/Godwin-Portfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "static/media/projectTwo.jpg": "/Godwin-Portfolio/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "index.html": "/Godwin-Portfolio/index.html",
+    "main.ec8e228b.css.map": "/Godwin-Portfolio/static/css/main.ec8e228b.css.map",
+    "main.dcd958e1.js.map": "/Godwin-Portfolio/static/js/main.dcd958e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec8e228b.css",
+    "static/js/main.dcd958e1.js"
+  ]
+}
