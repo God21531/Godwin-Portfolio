@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion';
-import ResumeCard from './ResumeCard';
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
@@ -12,11 +12,12 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2008 - 2021</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Schooling and College
+          </h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-         {/* <ResumeCard
+          {/* <ResumeCard
             title="BSc in Computer Science"
             subTitle="University of DVI (2006 - 2010)"
             result="3.90/4"
@@ -30,16 +31,22 @@ const Education = () => {
           />
   */}
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Zion Matric Hr Sec Schoool (2008 - 2021)"
-            result="TN 12th =>  86.5%"
-            des="TN SSLC, HSC both are State Board Syallabus."
+            title="Pursuing Final Year Information Technology"
+            subTitle="at Sathyabama University- Chennai."
+            result="2021 - 2025"
+            des="Current CGPA :-  (7.84)"
           />
           <ResumeCard
-            title="Pursuing UnderGradutate(UG) Degree"
-            subTitle=" At Sathyabama Institute of Science and Technology (2021 - 2025)"
-            result= "3rd Year."
-            des="I'm an Information Technology Student."
+            title="Completed my 12th std State Board "
+            subTitle=" At Zion Matric Hr Sec School -Chennai"
+            result="2020-2021"
+            des="Secured (86.5%) in HSC."
+          />
+          <ResumeCard
+            title="Completed my 10th std State Board "
+            subTitle=" At Zion Matric Hr Sec School -Chennai"
+            result="2018-2019"
+            des="Secured (80.2%) in SSLC."
           />
         </div>
       </div>
@@ -74,6 +81,6 @@ const Education = () => {
 */}
     </motion.div>
   );
-}
+};
 
-export default Education
+export default Education;

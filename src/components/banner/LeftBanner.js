@@ -1,26 +1,48 @@
-import React from 'react'
+import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import Media from './Media';
+import Media from "./Media";
+import "./leftbanner.css";
 
 const LeftBanner = () => {
-    const [text] = useTypewriter({
-      words: [" HTML, CSS, JS.", "PHP, MYSQL.", "MERN STACK."],
-      loop: true,
-      typeSpeed: 20,
-      deleteSpeed: 10,
-      delaySpeed: 2000,
-    });
+  const [text] = useTypewriter({
+    words: [
+      "Programming Languages: JAVA, JavaScript, Php.",
+      "Database: MySQL, MongoDB.",
+      "Web Technologies: HTML, CSS, XML, React.js.",
+      "Tools: Git, GitHub, Postman, Canva, Figma.",
+    ],
+    loop: true,
+    typeSpeed: 40,
+    deleteSpeed: 20,
+    delaySpeed: 4000,
+  });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
-      <div className="fle
-      x flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+    <div className="done">
+      <div
+        className="fle
+      x flex-col gap-5"
+      >
+        <h4 className=" text-lg font-normal ">WELCOME TO MY PORTFOLIO</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Godwin Vino</span>
+          Hi EveryOne!, <span style={{ fontSize: "2rem" }}>Myself </span>{" "}
+          <span
+            className="text-designColor capitalize"
+            style={{ fontFamily: "'Times New Roman', Times, serif" }}
+          >
+            {" "}
+            Godwin Vino
+          </span>
         </h1>
-      
+
         <h2 className="text-4xl font-bold text-white">
-        <p className='text-base font-bodyFont leading-6 tracking-wide text-white'> "I'm a web developer with a versatile skill set that includes</p><span>{text}</span>
+          <p
+            className="text-base font-bodyFont leading-6 tracking-wide text-white"
+            style={{ fontWeight: "normal" }}
+          >
+            {" "}
+            "I'm a web developer with a versatile skills that includes
+          </p>
+          <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -29,15 +51,19 @@ const LeftBanner = () => {
         </h2>
 
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          <br/>
-          Greetings! I'm a passionate Information Technology student currently advancing through my studies at Sathyabama University in Chennai. I take pride in my journey, having successfully completed coursework up to the 3rd year without a single backlog.
-          As I embark on the journey of upgrading my resume and preparing for the next chapter in my career, I'm excited to explore opportunities in the IT industry. My passion lies in becoming a Full Stack Developer and contributing meaningfully to the field.
+          <br />
+          Greetings!, I am a final-year Information Technology student at
+          Sathyabama University, Chennai, with a strong desire to build a
+          successful career in a dynamic and growing company. My goal is to
+          enhance my knowledge and contribute meaningfully to the company's
+          objectives. I am eager to embrace any challenges that come my way on
+          my career path, showcasing my dedication and adaptability.
         </p>
       </div>
-     {/* Media */}
-     <Media />
+      {/* Media */}
+      <Media />
     </div>
   );
-}
+};
 
-export default LeftBanner
+export default LeftBanner;

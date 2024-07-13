@@ -11,48 +11,56 @@ const Achievement = () => {
     >
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2020-2023</p>
-          <h2 className="text-4xl font-bold">At School</h2>
+          <h2 className="text-4xl font-bold">CERTIFIED COURSES</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="HOCKEY"
-            subTitle='Hockey-Winner in the Super-Senior Level at std "11" ' 
-            result= "ZION MATRIC HR SEC SCHOOL"
-            des="held, during the academic year 2019-2020."
+            title="MONGO DB FOR STUDENTS"
+            subTitle="From Mongo Db University."
+            result="On 11-7-2023"
+            des="I, Completed an 12 hrs MongoDB introduction for students course from Official Mongo DB website."
           />
-          <a href='https://drive.google.com/file/d/1uybWlj-EbgrEaFSTv8UdCtZ8pn2Vi44y/view?usp=sharing' target='_blank'>
-                   <div className="w-full">
-                <button
-                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
-                >
-                  Hockey Certificate.
-                </button>
-              </div>
-              </a>
+          <a
+            href="https://drive.google.com/file/d/1SOs3xpoW7TrS--gHmzSeT05aP6Iyx_-K/view?usp=sharing"
+            target="_blank"
+          >
+            <div className="w-full">
+              <button className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
+                MONGO DB CERTIFICATE.
+              </button>
+            </div>
+          </a>
 
-              <ResumeCard
-            title="SINGING COMPETITION"
-            subTitle='2nd Prize in Singing Competition at ' 
-            result= "ZION MATRIC HR SEC SCHOOL"
-            des="held, during the academic year 2008-2020."
+          <ResumeCard
+            title="MACHINE LEARNING WITH MATLAB and OnRamp"
+            subTitle="From Future Skills Prime."
+            result="On 2nd Jan 2024"
+            des="Completed 6 chapters about Machine Learning with matlab and 12 chapters on Machine Learning onRamp. "
           />
-          <a href='https://drive.google.com/file/d/1IND2c7dCbj0Qgz5X_v8W6VwAU6p1BAq5/view?usp=sharing' target='_blank'>
-                   <div className="w-full">
-                <button
-                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
-                >
-                  Singing Certificate.
-                </button>
-              </div>
-              </a>
-              </div>
+          <a
+            href="https://drive.google.com/file/d/1s_5i-R_YBGs_TT_jo2Fwg2DdrkfuHymv/view"
+            target="_blank"
+          >
+            <div className="w-full">
+              <button className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
+                Machine Learning with Matlab
+              </button>
+            </div>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1AKvDETprpRmbgcXItp6y3jiS3NcPT1Sd/view"
+            target="_blank"
+          >
+            <div className="w-full">
+              <button className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
+                Machine Learning onRamp
+              </button>
+            </div>
+          </a>
+        </div>
       </div>
       <div>
-
-              
-
-{/*
+        {/*
           <ResumeCard
             title="Lorem ipsum dolor sit amet."
             subTitle="Lorem ipsum dolor sit amet alternative."
@@ -68,6 +76,7 @@ const Achievement = () => {
         
 
   */}
+        {/*
         <div className="py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2021 - 2023</p>
           <h2 className="text-4xl font-bold">At College</h2>
@@ -100,6 +109,7 @@ const Achievement = () => {
 
          
         </div>
+     */}{" "}
       </div>
     </motion.div>
   );

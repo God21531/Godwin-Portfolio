@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const ProjectsCard = ({ title, des, src, git1, bro1 }) => {
   return (
@@ -16,21 +16,20 @@ const ProjectsCard = ({ title, des, src, git1, bro1 }) => {
             <h3 className="text-base uppercase text-designColor font-normal">
               {title}
             </h3>
-            </div>
-            <div className="flex gap-2">
-              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <a href='https://github.com/God21531/resto.git' target='blank'>
+          </div>
+          <div className="flex gap-2">
+            <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+              <a href="https://github.com/God21531/resto.git" target="blank">
                 {git1}
-                </a>
-              </span>
-              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <a href='https://god21531.github.io/Chaatmato/' target='blank' >
+              </a>
+            </span>
+            <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+              <a href="https://god21531.github.io/Chaatmato/" target="blank">
                 {bro1}
-                </a>
-              </span>
-            </div>
-            
-         
+              </a>
+            </span>
+          </div>
+
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p>
@@ -38,7 +37,7 @@ const ProjectsCard = ({ title, des, src, git1, bro1 }) => {
       </div>
     </div>
   );
-}
+};
 
 const ProjectsCard1 = ({ title2, des2, src2, git2, bro2 }) => {
   return (
@@ -56,21 +55,23 @@ const ProjectsCard1 = ({ title2, des2, src2, git2, bro2 }) => {
             <h3 className="text-base uppercase text-designColor font-normal">
               {title2}
             </h3>
-            </div>
-            <div className="flex gap-2">
-              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <a href='https://github.com/God21531/leave.git' target='blank'>
+          </div>
+          <div className="flex gap-2">
+            <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+              <a href="https://github.com/God21531/leave.git" target="blank">
                 {git2}
-                </a>
-              </span>
-              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <a href='https://drive.google.com/file/d/1POJirYiKQCQO-rrIUkKwgkDZ52Uzh36D/view?usp=sharing' target='blank' >
+              </a>
+            </span>
+            <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+              <a
+                href="https://drive.google.com/file/d/1myRKY2hyLRxX5DSZeHF32ejUGaYu8qDj/view?usp=sharing"
+                target="blank"
+              >
                 {bro2}
-                </a>
-              </span>
-            </div>
-            
-         
+              </a>
+            </span>
+          </div>
+
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des2}
           </p>
@@ -78,6 +79,5 @@ const ProjectsCard1 = ({ title2, des2, src2, git2, bro2 }) => {
       </div>
     </div>
   );
-}
-export{ProjectsCard,
-  ProjectsCard1} 
+};
+export { ProjectsCard, ProjectsCard1 };

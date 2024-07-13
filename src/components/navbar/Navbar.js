@@ -1,20 +1,20 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
-import { navLinksdata } from '../../constants';
+import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <img src={logo} alt="logo" />
-      </div>
-      <div>
-        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
+        <ul
+          className="hidden mdl:inline-flex items-center gap-6 lg:gap-10"
+          style={{ marginLeft: "100%" }}
+        >
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
@@ -45,8 +45,15 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                Greetings! I'm a passionate Information Technology student currently advancing through my studies at Sathyabama University in Chennai. I take pride in my journey, having successfully completed coursework up to the 3rd year without a single backlog.
-          As I embark on the journey of upgrading my resume and preparing for the next chapter in my career, I'm excited to explore opportunities in the IT industry. My passion lies in becoming a Full Stack Developer and contributing meaningfully to the field.
+                  Greetings! I'm a passionate Information Technology student
+                  currently advancing through my studies at Sathyabama
+                  University in Chennai. I take pride in my journey, having
+                  successfully completed coursework up to the 3rd year without a
+                  single backlog. As I embark on the journey of upgrading my
+                  resume and preparing for the next chapter in my career, I'm
+                  excited to explore opportunities in the IT industry. My
+                  passion lies in becoming a Full Stack Developer and
+                  contributing meaningfully to the field.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -97,6 +104,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
